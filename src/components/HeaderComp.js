@@ -35,12 +35,12 @@ function HeaderComp() {
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='/about-me' className='nav-links' onClick={closeMobileMenu}>
                     About me
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='/applications' className='nav-links' onClick={closeMobileMenu}>
                     Applications
                     </Link>
                 </li>
