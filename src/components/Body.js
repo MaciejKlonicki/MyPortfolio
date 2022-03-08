@@ -19,7 +19,7 @@ function Body() {
             buttonStyle='btn--outline'
             buttonSize='btn-large'
             >
-              <Link className='body-links' to='/application'>PROJECTS</Link>
+              <Link className='body-links' to='/applications'>PROJECTS</Link>
             </Button>
 
             <Button 
