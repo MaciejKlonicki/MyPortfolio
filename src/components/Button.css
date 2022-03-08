@@ -12,7 +12,7 @@
   
   .btn--primary {
     background-color: var(--primary);
-    color: #242424;
+    color: #000000;
     border: 1px solid var(--primary);
   }
   
@@ -34,10 +34,11 @@
     font-size: 20px;
   }
   
+
   .btn--large:hover,
   .btn--medium:hover {
     transition: all 0.3s ease-out;
-    background: #fff;
-    color: #242424;
+    background: black;
+    color: #ffffff;
     transition: 250ms;
   }
