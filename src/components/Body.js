@@ -1,9 +1,13 @@
 import React from 'react';
 import { Button } from './Button';
+import { Link } from 'react-router-dom';
 import './Body.css';
 import '../App.css';
+import './HeaderComp.css'
 
 function Body() {
+
+
   return (
     <div className='body-container'>
         <video src="/videos/video-1.mp4" autoPlay loop muted />
@@ -14,15 +18,16 @@ function Body() {
             className='btns' 
             buttonStyle='btn--outline'
             buttonSize='btn-large'
-            > 
-            PROJECTS
+            >
+              <Link className='body-links' to='/application'>PROJECTS</Link>
             </Button>
+
             <Button 
             className='btns' 
             buttonStyle='btn--outline'
             buttonSize='btn-large'
             > 
-            ABOUT ME
+              <Link className='body-links' to='/about-me'>ABOUT ME</Link>
             </Button>
         </div>
     </div>

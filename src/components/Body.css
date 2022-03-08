@@ -16,6 +16,12 @@ video {
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
   }
+
+  .body-links {
+    color: white;
+    text-decoration: none;
+  }
+
   
   .body-container > h1 {
     color: #fff;
@@ -28,7 +34,7 @@ video {
     margin-top: 8px;
     color: #fff;
     font-size: 32px;
-    font-family: 'Trebuchet MS';
+    font-family: 'Trebuchet MS', 'Times New Roman';
   }
   
   .body-btns {
