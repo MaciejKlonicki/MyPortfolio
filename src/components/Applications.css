@@ -9,6 +9,10 @@
     opacity: 0.9;
 }
 
+.app_image:hover {
+    transform: scale(0.9);
+}
+
 .app_button {
     top:11%;
     left:55%;

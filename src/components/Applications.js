@@ -4,6 +4,7 @@ import {HashRouter} from 'react-router-dom';
 import './Applications.css'
 import './HeaderComp.css'
 import '../App.css';
+import { Link } from 'react-router-dom';
 
 function Applications() {
   return (
@@ -19,11 +20,13 @@ function Card(props){
         <div>
             <div>
             <video src={"/videos/video-2.mp4"}  autoPlay loop muted />
-                <img 
-                src={props.img} 
+                <Link to={"/applications/snake"}>
+                <img
+                src={props.img}
                 alt='snakeGame'
                 className='app_image'
                 />
+                </Link>
             </div>
         </div>
     )
