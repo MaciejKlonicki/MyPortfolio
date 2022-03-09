@@ -6,8 +6,6 @@ import '../App.css';
 import './HeaderComp.css'
 
 function Body() {
-
-
   return (
     <div className='body-container'>
         <video src="/videos/video-1.mp4" autoPlay loop muted />
