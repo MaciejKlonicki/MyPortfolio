@@ -1,8 +1,8 @@
 .app_image {
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     position: relative;
-    left: 300px;
+    left: 600px;
     top: 0px;
     border: 3px solid #252525;
     border-radius: 10px;

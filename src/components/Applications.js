@@ -16,6 +16,9 @@ function Applications() {
         <Card 
         img='/images/s1.png'
         path='/applications/snake'/>
+                <Card 
+        img='/images/h1.png'
+        path='/applications/huffman'/>
 
     </div>
     
