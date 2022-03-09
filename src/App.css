@@ -16,7 +16,6 @@
   }
   
   .about-me {
-    background-image: url('/public/images/z1.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -25,7 +24,6 @@
   }
   
   .applications {
-    background-image: url('/public/images/z2.jpg');
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;

@@ -1,10 +1,11 @@
-import React from 'react'
+import React  from 'react';
 import XReactDom from 'react-dom'
 import {HashRouter} from 'react-router-dom';
 import './Applications.css'
 import './HeaderComp.css'
 import '../App.css';
 import { Link } from 'react-router-dom';
+
 
 function Applications() {
   return (
@@ -19,7 +20,6 @@ function Applications() {
                 <Card 
         img='/images/h1.png'
         path='/applications/huffman'/>
-
     </div>
     
   )
