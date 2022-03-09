@@ -1,4 +1,4 @@
-.video {
+video {
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -14,7 +14,7 @@
     top: 0px;
     border: 3px solid #252525;
     border-radius: 10px;
-    opacity: 0.85;
+    opacity: 0.9;
     margin-top:20px;
 }
 
@@ -25,12 +25,14 @@
 @media screen and (max-width: 960px) {
     .app_image {
       display: flex;
-      width: 350px;
-      height: 350px;
-      position: relative;
-      top: 10px;
-      left: 30%;
-      opacity: 0.85;
+      flex-direction: column;
+      width: 100%;
+      height: 90vh;
+      position: absolute;
+      top: 80px;
+      left: -100%;
+      opacity: 1;
+      transition: all 0.5s ease;
     }
   }
 
