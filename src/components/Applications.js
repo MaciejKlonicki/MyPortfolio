@@ -2,7 +2,6 @@ import React  from 'react';
 import XReactDom from 'react-dom'
 import {HashRouter} from 'react-router-dom';
 import './Applications.css'
-import './HeaderComp.css'
 import '../App.css';
 import { Link } from 'react-router-dom';
 
