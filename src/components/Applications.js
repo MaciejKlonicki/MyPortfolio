@@ -9,18 +9,30 @@ import { Link } from 'react-router-dom';
 function Applications() {
   return (
     <div>
+        <BackVideo />
         <Card 
-        img='/images/s1.png'/>
+        img='/images/c1.png'
+        path='/applications/chess'/>
+        <Card 
+        img='/images/s1.png'
+        path='/applications/snake'/>
+
     </div>
+    
   )
+}
+
+function BackVideo() {
+    return (
+        <video src={"/videos/video-2.mp4"}  autoPlay loop muted />
+    )
 }
 
 function Card(props){
     return(
         <div>
             <div>
-            <video src={"/videos/video-2.mp4"}  autoPlay loop muted />
-                <Link to={"/applications/snake"}>
+                <Link to={props.path}>
                 <img
                 src={props.img}
                 alt='snakeGame'
