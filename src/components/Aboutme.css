@@ -3,14 +3,14 @@
     height: 100%;
     position: absolute;
     object-fit: cover;
-    display: flex;
+          display: flex;
 }
 
 .aboutme-place {
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-    color: rgb(0, 0, 0);
+    color: white;
     font-weight: bold;
-    border: 3px solid #020202;
+    border: 3px solid #f1f1f1;
     position: absolute;
     top: 50%;
     left: 50%;
