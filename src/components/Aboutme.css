@@ -7,6 +7,7 @@
   display: flex;
 }
 
+
 .aboutme-place {
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: white;
@@ -56,12 +57,11 @@ p {
       display: flex;
       width: 100%;
       height: 100%;
-      position:absolute; 
+      position:relative; 
       object-fit: cover;
     }
 
     .aboutme-place {
-      background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
       color: white;
       font-weight: bold;
       border: 3px solid #f1f1f1;
@@ -70,7 +70,6 @@ p {
       left: 50%;
       width: 80%;
       height: 100%;
-  
       text-align: center;
       backdrop-filter: blur(5px);
   }
