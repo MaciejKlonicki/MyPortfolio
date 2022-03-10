@@ -4,6 +4,7 @@ video {
     height: 100%;
     position: fixed;
     z-index: -1;
+    display: flex;
   }
 
   

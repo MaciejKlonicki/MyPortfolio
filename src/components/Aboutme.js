@@ -13,18 +13,13 @@ function Aboutme() {
 
 function BackImage() {
   return (
-      <img className='aboutme-image' src={"/images/z1.jpg"}/>
+      <img className='aboutme-image' src={"/images/z1.jpg"} alt='backgroungimg'/>
   )
 }
 
 function Card(props){
   return (
     <div className= 'aboutme-place'>
-      <div>
-      <img 
-        className='bg-image'
-        />
-      </div>
       <div class='text-on-image'>
              <p> My name is Maciej Kłonickii </p>
           </div>
