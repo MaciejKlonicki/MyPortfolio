@@ -13,8 +13,6 @@ video {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-    object-fit: contain;
   }
 
   .body-links {
@@ -48,7 +46,15 @@ video {
   
   @media screen and (max-width: 960px) {
     .body-container > h1 {
-      font-size: 70px;
+      font-size: 60px;
       margin-top: -150px;
+    }
+
+    video {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      z-index: -1;
     }
   }
