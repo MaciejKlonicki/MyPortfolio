@@ -23,13 +23,31 @@
     backdrop-filter: blur(5px);
 }
 
+h1 {
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  color: #e6e6e6; 
+  font-family: 'Open sans', sans-serif; 
+  font-size: 36px; 
+  font-weight: 600; font-style: italic; line-height: 44px; margin: 0 0 12px; text-align: center;
+}
 
- .text-on-image > p {
-    position: absolute;
-    left: 5%;
-    top: 5%;
-    font-family: 'Arial';
-  }
+p { 
+  color: #eee; 
+  font-family: 'Droid Sans', sans-serif; 
+  font-size: 15px; 
+  font-weight: 400; 
+  line-height: 24px; 
+  margin: 0 0 14px; 
+}
+
+.about-links {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  list-style-type: none;
+}
+
 
   @media screen and (max-width: 960px) {
     .aboutme-image {
