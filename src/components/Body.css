@@ -47,7 +47,7 @@ video {
   
   @media screen and (max-width: 960px) {
     .body-container > h1 {
-      font-size: 60px;
+      font-size: 40px;
     }
 
     .video {
