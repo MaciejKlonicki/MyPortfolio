@@ -1,6 +1,4 @@
 import React  from 'react';
-import XReactDom from 'react-dom'
-import {HashRouter} from 'react-router-dom';
 import './Applications.css'
 import '../App.css';
 import { Link } from 'react-router-dom';
@@ -19,6 +17,9 @@ function Applications() {
         <Card 
         img='/images/h1.png'
         path='/applications/huffman'/>
+        <Card 
+        img='/images/k1.jpg'
+        path='/applications/library'/>
     </div>
     
   )
@@ -46,10 +47,6 @@ function Card(props){
     )
 }
 
-XReactDom.render((
-    <HashRouter>
-        <Applications />
-    </HashRouter>
-    ), document.getElementById('root'));
+
 
 export default Applications

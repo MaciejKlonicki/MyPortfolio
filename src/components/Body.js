@@ -25,7 +25,7 @@ function Body() {
             buttonStyle='btn--outline'
             buttonSize='btn-large'
             > 
-              <Link className='body-links' to='/about-me'>ABOUT ME</Link>
+              <Link className='body-links' to='/aboutme'>ABOUT ME</Link>
             </Button>
         </div>
     </div>

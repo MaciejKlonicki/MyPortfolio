@@ -39,7 +39,7 @@ function HeaderComp() {
                     </Link>
                 </li>
                 <li>
-                    <Link to='/about-me' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='/aboutme' className='nav-links' onClick={closeMobileMenu}>
                     About me
                     </Link>
                 </li>
