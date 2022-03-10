@@ -3,7 +3,7 @@
     height: 100%;
     position: absolute;
     object-fit: cover;
-    
+    display: flex;
 }
 
 .aboutme-place {
@@ -18,18 +18,9 @@
     z-index: 2;
     width: 80%;
     height: 60%;
-    padding: 20px;
+
     text-align: center;
     backdrop-filter: blur(5px);
-}
-
-.bg-image {
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 
@@ -42,6 +33,7 @@
 
   @media screen and (max-width: 960px) {
     .aboutme-image {
+      display: flex;
       width: 100%;
       height: 100%;
       position: absolute;
