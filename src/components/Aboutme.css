@@ -8,9 +8,9 @@
 
 .aboutme-place {
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
-    border: 3px solid #f1f1f1;
+    border: 3px solid #020202;
     position: absolute;
     top: 50%;
     left: 50%;
