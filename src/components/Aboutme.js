@@ -26,7 +26,7 @@ function Card(props){
         />
       </div>
       <div class='text-on-image'>
-             <p> My name is Maciej Kłonicki </p>
+             <p> My name is Maciej Kłonickii </p>
           </div>
     </div>
   )
