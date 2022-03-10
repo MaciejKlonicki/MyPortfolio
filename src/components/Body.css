@@ -6,8 +6,6 @@ video {
     z-index: -1;
     display: flex;
   }
-
-  
   
   .body-container {
     height: 100vh;
