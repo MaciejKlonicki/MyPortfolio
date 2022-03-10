@@ -2,6 +2,7 @@ import React  from 'react';
 import './Applications.css'
 import '../App.css';
 import { Link } from 'react-router-dom';
+import './HeaderComp.css'
 
 
 function Applications() {
