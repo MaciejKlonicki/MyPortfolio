@@ -5,22 +5,31 @@ import './Aboutme.css'
 function Aboutme() {
   return (
     <div>
-      <img 
-      src='/images/z1.jpg' 
-      alt='background-foto'
-      className='aboutme-image'
-      >
-      </img>
+      <BackImage />
+      <Card />
     </div>
   )
 }
 
-// function Card(props){
-//   return (
-//     <div>
+function BackImage() {
+  return (
+      <img className='aboutme-image' src={"/images/z1.jpg"}/>
+  )
+}
 
-//     </div>
-//   )
-// }
+function Card(props){
+  return (
+    <div className= 'aboutme-place'>
+      <div>
+      <img 
+        className='bg-image'
+        />
+      </div>
+      <div class='text-on-image'>
+             <p> My name is Maciej Kłonicki </p>
+          </div>
+    </div>
+  )
+}
 
 export default Aboutme
