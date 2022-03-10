@@ -71,7 +71,7 @@
       display: flex;
       flex-direction: column;
       width: 100%;
-      height: 90vh;
+      height: 100vh;
       position: absolute;
       top: 80px;
       left: -100%;
@@ -111,7 +111,7 @@
     }
   
     .fa-times {
-      color: #fff;
+      color: rgb(206, 24, 24);
       font-size: 2rem;
     }
   
