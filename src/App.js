@@ -6,6 +6,8 @@ import Applications from './components/Applications';
 import Aboutme from './components/Aboutme';
 import Chess from './components/Chess';
 import Snake from './components/Snake';
+import Huffman from './components/Huffman';
+import Library from './components/Library';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           <Route path='/aboutme' exact component={Aboutme}/>
           <Route path='/applications/chess' exact component={Chess}/>
           <Route path='/applications/snake' exact component={Snake}/>
+          <Route path='/applications/huffman' exact component={Huffman}/>
+          <Route path='/applications/library' exact component={Library}/>
         </Switch>
       </Router>
     </>

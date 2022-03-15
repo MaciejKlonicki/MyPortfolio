@@ -1,23 +1,23 @@
-.chess-info-place {
+.library-info-place {
     background-color: rgba(0, 0, 0, 0.3); 
     backdrop-filter: blur(5px);
     font-weight: bold;
     border: 4px solid #f1f1f1;
-    transform: translate(33%, 2%);
+    transform: translate(33%, 4%);
     width: 60%;
-    height: 14%;
+    height: 20%;
     text-align: center;
     line-height: 35px; 
 }
 
-.chess-inside-place {
+.library-inside-place {
     background-color: rgba(0, 0, 0, 0.3); 
     backdrop-filter: blur(5px);
     font-weight: bold;
     border: 4px solid #f1f1f1;
-    transform: translate(20%, 2%);
+    transform: translate(20%, -0.5%);
     width: 70%;
-    height: 24%;
+    height: 20%;
     text-align: center;
     line-height: 35px; 
 }
@@ -76,7 +76,7 @@ h2 {
 
 @media screen and (max-width: 960px) {
 
-    .chess-info-place {
+    .library-info-place {
         background-color: rgba(0, 0, 0, 0.3); 
         backdrop-filter: blur(5px);
         font-weight: bold;
@@ -89,7 +89,7 @@ h2 {
         position: relative;
     }
 
-.chess_cards {
+.library_cards {
     border: 3px solid #252525;
     height: 350px;
     width: 350px;
@@ -103,7 +103,7 @@ h2 {
 }
 
 @media screen and (max-width: 768px) {
-    .chess-info-place {
+    .library-info-place {
         background-color: rgba(0, 0, 0, 0.3); 
         backdrop-filter: blur(5px);
         font-weight: bold;
@@ -116,7 +116,7 @@ h2 {
         position: relative;
     }
 
-    .chess_cards {
+    .library_cards {
     border: 3px solid #252525;
     height: 200px;
     width: 200px;
