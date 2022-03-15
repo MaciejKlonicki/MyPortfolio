@@ -2,7 +2,6 @@ import React from 'react'
 import '../App.css';
 import './Chess.css'
 import './HeaderComp.css'
-import { Button } from './Button';
 
 function Chess() {
   return (
@@ -20,17 +19,20 @@ function BackVideo() {
 }
 
 function Card () {
+
   return (
     <div>
         <div className='chess-info-place'>
           <h1>Chess game</h1>
           <div className='body-btns'>
-          <Button 
+            <a href='https://github.com/MaciejKlonicki/Chess'>
+          <button
             className='btns' 
             buttonStyle='btn--outline'
             buttonSize='btn-large'
             >REPOSITORY
-          </Button>
+          </button>
+          </a>
         </div>
         <div className='chess-inside-place'>
           <h2>Chess game created in Java</h2>
