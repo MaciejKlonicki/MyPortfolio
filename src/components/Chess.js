@@ -3,11 +3,10 @@ import '../App.css';
 import './Chess.css'
 import './HeaderComp.css'
 import { Button } from './Button';
-import './Body.css';
 
 function Chess() {
   return (
-    <div className='chess_image'>
+    <div>
       <BackVideo />
       <Card />
     </div>
@@ -22,18 +21,18 @@ function BackVideo() {
 
 function Card () {
   return (
-    <div className='chess-place'>
-        <h1>Chess game</h1>
-        <div className='body-btns'>
+    <div>
+        <div className='chess-info-place'>
+          <h1>Chess game</h1>
+          <div className='body-btns'>
           <Button 
             className='btns' 
             buttonStyle='btn--outline'
             buttonSize='btn-large'
-            >
-              <a className='body-links' href='https://github.com/MaciejKlonicki/Chess'>REPOSITORY</a>
+            >REPOSITORY
           </Button>
         </div>
-        <div className='chess-info-place'>
+        <div className='chess-inside-place'>
           <h2>Chess game created in Java</h2>
           <h3>Features</h3>
           <p>• Turns</p>
@@ -41,6 +40,7 @@ function Card () {
           <p>• Possibility of capturing pawns</p>
           <p>• Removing figurates from the board</p>
           <p>• Winning possibility</p> 
+          </div>
           <h1>Screenshots</h1>
           <img className='chess_cards' 
           src='/images/c1.png' 
