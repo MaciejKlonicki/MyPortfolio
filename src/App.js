@@ -5,6 +5,7 @@ import Body from './components/Body';
 import Applications from './components/Applications';
 import Aboutme from './components/Aboutme';
 import Chess from './components/Chess';
+import Snake from './components/Snake';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='/applications' exact component={Applications} />
           <Route path='/aboutme' exact component={Aboutme}/>
           <Route path='/applications/chess' exact component={Chess}/>
+          <Route path='/applications/snake' exact component={Snake}/>
         </Switch>
       </Router>
     </>
