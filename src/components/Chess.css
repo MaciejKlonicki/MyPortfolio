@@ -54,6 +54,21 @@ h2 {
     text-shadow: 0 0 2px white;
   }
 
+  button {
+    background-color: transparent;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+  }
+
+  button:hover {
+    transition: all 0.3s ease-out;
+    background: black;
+    color: #ffffff;
+    transition: 250ms;
+  }
+
 .chess_cards {
     border: 3px solid #252525;
     height: 450px;
