@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    object-fit: cover;
+
 }
 
 .chess-place {
@@ -21,7 +21,7 @@
     height: 220%;
     text-align: center;
     backdrop-filter: blur(5px);
-    text-shadow: 0 0 3px white;
+    text-shadow: 0 0 2px white;
     flex-direction: column;
     object-fit: cover;
 }
