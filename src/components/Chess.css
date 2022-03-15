@@ -101,7 +101,6 @@
         backdrop-filter: blur(5px);
         font-weight: bold;
         border: 4px solid #f1f1f1;
-        transform: translate(35%, 2%);
         width: 70%;
         height: 32%;
         text-align: center;
@@ -130,7 +129,6 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-block-end: 10px;
 }
 
 }
