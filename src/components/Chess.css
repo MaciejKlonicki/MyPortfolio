@@ -113,10 +113,10 @@
       font-weight: bold;
       border: 3px solid #f1f1f1;
       position: relative;
-      top: 100%;
+      top: 110%;
       left: 40%;
       width: 80%;
-      height: 187%;
+      height: 180%;
       text-align: center;
       backdrop-filter: blur(5px);
     }
@@ -131,7 +131,7 @@
     flex-direction: column;
     position: relative;
     margin-block-end: 10px;
-    right: 0%;
+    right: -10%;
 }
 
 }
