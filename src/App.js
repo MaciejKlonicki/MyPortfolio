@@ -8,6 +8,7 @@ import Chess from './components/Chess';
 import Snake from './components/Snake';
 import Huffman from './components/Huffman';
 import Library from './components/Library';
+import FooterComp from './components/FooterComp';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/applications/huffman' exact component={Huffman}/>
           <Route path='/applications/library' exact component={Library}/>
         </Switch>
+        <FooterComp />
       </Router>
     </>
   );

@@ -1,0 +1,12 @@
+.main-footer {
+  color: white;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
