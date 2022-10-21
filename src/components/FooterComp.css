@@ -1,6 +1,6 @@
 .main-footer {
   color: white;
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  background: linear-gradient(90deg, rgba(28, 27, 27, 0.959) 0%, rgba(26, 23, 23, 0.938) 100%);
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -9,4 +9,5 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  opacity: 0.8;
 }

@@ -1,7 +1,7 @@
 import React from 'react'
-import '../App.css';
+import '../../App.css';
 import './Huffman.css'
-import './HeaderComp.css'
+import '../HeaderComp.css'
 
 function Huffman() {
   return (

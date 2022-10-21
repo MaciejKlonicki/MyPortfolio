@@ -1,7 +1,7 @@
 import React from 'react'
-import '../App.css';
+import '../../App.css';
 import './Library.css'
-import './HeaderComp.css'
+import '../HeaderComp.css'
 
 function Library() {
   return (

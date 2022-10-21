@@ -21,6 +21,9 @@ function Applications() {
         <Card 
         img='/images/k1.jpg'
         path='/applications/library'/>
+        <Card 
+        img='/images/main-page.png'
+        path='/applications/diabetes'/>
     </div>
     
   )
@@ -28,7 +31,7 @@ function Applications() {
 
 function BackVideo() {
     return (
-        <video src={"/videos/video-2.mp4"}  autoPlay loop muted />
+        <img style={{position: "fixed", width: "100%", height: "100%", zIndex: "-1"}} src="/images/app.jpg" alt="app" />
     )
 }
 

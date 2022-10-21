@@ -1,7 +1,7 @@
 import React from 'react'
-import '../App.css';
+import '../../App.css';
 import './Chess.css'
-import './HeaderComp.css'
+import '../HeaderComp.css'
 
 function Chess() {
   return (

@@ -8,7 +8,7 @@ import './HeaderComp.css'
 function Body() {
   return (
     <div className='body-container'>
-        <video src="/videos/video-1.mp4" autoPlay loop muted />
+        <img style={{position: "fixed", width: "100%", height: "100%", zIndex: "-1"}} src="/images/europe.jpg"  alt="background"/>
         <h1>Welcome to my page</h1>
         <p>Maciej Kłonicki</p>
         <div className='body-btns'>
