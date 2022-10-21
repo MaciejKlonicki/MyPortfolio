@@ -1,55 +1,3 @@
-.huff-info-place {
-    background-color: rgba(0, 0, 0, 0.3); 
-    backdrop-filter: blur(5px);
-    font-weight: bold;
-    border: 4px solid #f1f1f1;
-    transform: translate(33%, 2%);
-    width: 60%;
-    height: 13%;
-    text-align: center;
-    line-height: 35px; 
-}
-
-.huff-inside-place {
-    background-color: rgba(0, 0, 0, 0.3); 
-    backdrop-filter: blur(5px);
-    font-weight: bold;
-    border: 4px solid #f1f1f1;
-    transform: translate(20%, 2%);
-    width: 70%;
-    height: 21%;
-    text-align: center;
-    line-height: 35px; 
-}
-
-h2 {
-    color: #e6e6e6; 
-    font-family: 'Open sans', sans-serif; 
-    font-size: 26px; 
-    font-weight: 400; 
-    text-align: center;
-  }
-
-  h3 {
-    color: #e6e6e6; 
-    font-family: 'Open sans', sans-serif; 
-    font-size: 22px; 
-    font-weight: 600; 
-    text-align: center;
-  }
-
-  h1 {
-    color: #e6e6e6; 
-    font-family: 'Open sans', sans-serif; 
-    font-size: 36px; 
-    font-weight: 600; 
-    font-style: italic; 
-    line-height: 44px; 
-    margin: 0 0 10px; 
-    text-align: center;
-    text-shadow: 0 0 2px white;
-  }
-
   button {
     background-color: transparent;
     color: #fff;
@@ -67,25 +15,11 @@ h2 {
 
 .huff_cards {
     border: 3px solid #252525;
-    height: 450px;
-    width: 450px;
+    height: 600px;
+    width: 600px;
 }
 
 @media screen and (max-width: 960px) {
-
-    .huff-info-place {
-        background-color: rgba(0, 0, 0, 0.3); 
-        backdrop-filter: blur(5px);
-        font-weight: bold;
-        border: 4px solid #f1f1f1;
-        transform: translate(35%, 2%);
-        width: 60%;
-        height: 17%;
-        text-align: center;
-        line-height: 35px; 
-        position: relative;
-    }
-
 .huff_cards {
     border: 3px solid #252525;
     height: 350px;
@@ -100,19 +34,6 @@ h2 {
 }
 
 @media screen and (max-width: 768px) {
-    .huff-info-place {
-        background-color: rgba(0, 0, 0, 0.3); 
-        backdrop-filter: blur(5px);
-        font-weight: bold;
-        border: 4px solid #f1f1f1;
-        transform: translate(23%, 2%);
-        width: 70%;
-        height: 26%;
-        text-align: center;
-        line-height: 25px; 
-        position: relative;
-    }
-
     .huff_cards {
     border: 3px solid #252525;
     height: 200px;
@@ -123,5 +44,4 @@ h2 {
     right: 0%;
     left: 10%;
 }
-
 }

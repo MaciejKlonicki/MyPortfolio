@@ -1,32 +1,33 @@
 import React from 'react'
-import '../../App.css';
 import './Chess.css'
-import '../HeaderComp.css'
 
 function Chess() {
   return (
     <div>
-      <BackVideo />
       <Card />
     </div>
   )
 }
 
-function BackVideo() {
-  return (
-      <video src={"/videos/video-2.mp4"}  autoPlay loop muted />
-  )
-}
 
 function Card () {
-
   return (
     <div>
-        <div className='chess-info-place'>
+        <div style={{
+          backgroundColor: "rgba(0, 0, 0, 0.3)",
+          backdropFilter: "blur(5px)",
+          fontWeight: "bold",
+          border: "4px solid #f1f1f1",
+          transform: "translate(33%, 2%)",
+          width: "60%",
+          height: "12%",
+          textAlign: "center",
+          lineHeight: "35px"
+        }}><br></br>
           <h1>Chess game</h1>
           <div className='body-btns'>
             <a href='https://github.com/MaciejKlonicki/Chess'>
-          <button
+          <button style={{marginBottom: "30px"}}
             className='btns' 
             buttonStyle='btn--outline'
             buttonSize='btn-large'
@@ -34,16 +35,39 @@ function Card () {
           </button>
           </a>
         </div>
-        <div className='chess-inside-place'>
-          <h2>Chess game created in Java</h2>
-          <h3>Features</h3>
-          <p>• Turns</p>
-          <p>• Valid moves for each</p>
-          <p>• Possibility of capturing pawns</p>
-          <p>• Removing figurates from the board</p>
-          <p>• Winning possibility</p> 
-          </div>
+        <div style={{
+          backgroundColor: "rgba(0, 0, 0, 0.3)",
+          backdropFilter: "blur(5px)",
+          fontWeight: "bold",
+          border: "4px solid #f1f1f1",
+          transform: "translate(20%, 0%)",
+          width: "70%",
+          height: "10%",
+          textAlign: "center",
+          lineHeight: "35px"
+        }}>
+          <h2 style={{
+            color: "e6e6e6",
+            fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+            fontSize: "26px",
+            fontWeight: "bold",
+            textAlign: "center",
+            color: 'white'
+          }}>Chess game created in Java</h2>
+          <h3 style={{
+            color: "e6e6e6",
+            fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+            fontSize: "22px",
+            textAlign: "center"
+          }}>Features</h3>
+          <p className='p-styling'>• Turns</p>
+          <p className='p-styling'>• Valid moves for each</p>
+          <p className='p-styling'>• Possibility of capturing pawns</p>
+          <p className='p-styling'>• Removing figurates from the board</p>
+          <p className='p-styling'>• Winning possibility</p> 
+          </div><br></br>
           <h1>Screenshots</h1>
+          <br></br>
           <img className='chess_cards' 
           src='/images/c1.png' 
           alt='chessGame'>
@@ -55,10 +79,10 @@ function Card () {
           <img className='chess_cards' 
           src='/images/c3.png' 
           alt='chessGame3'>
-          </img>
+          </img><br></br><br></br>
         </div>
     </div>
   )
 }
 
-export default Chess
+export default Chess;

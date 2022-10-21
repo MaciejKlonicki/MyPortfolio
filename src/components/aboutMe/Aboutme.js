@@ -6,17 +6,11 @@ import{ Link } from 'react-router-dom'
 function Aboutme() {
   return (
     <div>
-      <BackImage />
       <Card />
     </div>
   )
 }
 
-function BackImage() {
-  return (
-      <img className='aboutme-image' src={"/images/z1.jpg"} alt='backgroungimg'/>
-  )
-}
 
 function Card(){
   return (
@@ -38,6 +32,7 @@ function Card(){
             <p></p>
             <li style={{listStyleType: "none"}}><Link className='about-links' to="/applications/library">Library</Link></li>
           <p></p>
+            <li style={{listStyleType: "none"}}><Link className='about-links' to="/applications/diabetes">Diabetes</Link></li>
         </ul>
       </div>
     </div>

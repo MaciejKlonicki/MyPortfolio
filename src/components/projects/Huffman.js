@@ -1,32 +1,33 @@
 import React from 'react'
-import '../../App.css';
 import './Huffman.css'
-import '../HeaderComp.css'
 
 function Huffman() {
   return (
     <div>
-      <BackVideo />
       <Card />
     </div>
   )
 }
 
-function BackVideo() {
-  return (
-      <video src={"/videos/video-2.mp4"}  autoPlay loop muted />
-  )
-}
-
 function Card () {
-
   return (
     <div>
-        <div className='huff-info-place'>
+        <div style={{
+          backgroundColor: "rgba(0, 0, 0, 0.3)",
+          backdropFilter: "blur(5px)",
+          fontWeight: "bold",
+          border: "4px solid #f1f1f1",
+          transform: "translate(33%, 2%)",
+          width: "60%",
+          height: "12%",
+          textAlign: "center",
+          lineHeight: "35px",
+          color: 'white'
+        }}><br></br>
           <h1>Huffman Compression-Decompression</h1>
           <div className='body-btns'>
             <a href='https://github.com/MaciejKlonicki/Huffman-Compression-Decompression'>
-          <button
+          <button style={{marginBottom: "30px"}}
             className='btns' 
             buttonStyle='btn--outline'
             buttonSize='btn-large'
@@ -34,12 +35,33 @@ function Card () {
           </button>
           </a>
         </div>
-        <div className='huff-inside-place'>
-          <h2>Project created in C.</h2>
-          <h3>Link to the presentation:</h3>
+        <div style={{
+          backgroundColor: "rgba(0, 0, 0, 0.3)",
+          backdropFilter: "blur(5px)",
+          fontWeight: "bold",
+          border: "4px solid #f1f1f1",
+          transform: "translate(20%, 0%)",
+          width: "70%",
+          height: "10%",
+          textAlign: "center",
+          lineHeight: "35px"
+        }}>
+          <h2 style={{
+            color: "e6e6e6",
+            fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+            fontSize: "26px",
+            fontWeight: "bold",
+            textAlign: "center"
+          }}>Project created in C</h2>
+          <h3 style={{
+            color: "e6e6e6",
+            fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+            fontSize: "22px",
+            textAlign: "center"
+          }}>Link to the presentation:</h3>
           <a href='https://www.youtube.com/watch?v=mY1yj95Fn-I'>Presentation</a>
-          </div>
-          <h1>Screenshots</h1>
+          </div><br></br>
+          <h1>Screenshots</h1><br></br>
           <img className='huff_cards' 
           src='/images/h1.png' 
           alt='huff1'>
@@ -51,7 +73,7 @@ function Card () {
           <img className='huff_cards' 
           src='/images/h4.png' 
           alt='huff4'>
-          </img>
+          </img><br></br><br></br>
         </div>
     </div>
   )

@@ -8,7 +8,6 @@ import './HeaderComp.css'
 function Applications() {
   return (
     <div>
-        <BackVideo />
         <Card 
         img='/images/c1.png'
         path='/applications/chess'/>
@@ -22,17 +21,11 @@ function Applications() {
         img='/images/k1.jpg'
         path='/applications/library'/>
         <Card 
-        img='/images/main-page.png'
-        path='/applications/diabetes'/>
+        img='/images/diabetes.png'
+        path='/applications/diabetes'/><br></br><br></br><br></br><br></br>
     </div>
     
   )
-}
-
-function BackVideo() {
-    return (
-        <img style={{position: "fixed", width: "100%", height: "100%", zIndex: "-1"}} src="/images/app.jpg" alt="app" />
-    )
 }
 
 function Card(props){
@@ -44,7 +37,7 @@ function Card(props){
                 src={props.img}
                 alt='snakeGame'
                 className='app_image'
-                />
+                /><br></br><br></br>
                 </Link>
             </div>
         </div>
@@ -53,4 +46,4 @@ function Card(props){
 
 
 
-export default Applications
+export default Applications;
