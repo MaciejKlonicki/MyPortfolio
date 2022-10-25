@@ -44,7 +44,7 @@ button {
 .library_cards {
     border: 3px solid #252525;
     height: 200px;
-    width: 175px;
+    width: 210px;
     display: flex;
     flex-direction: column;
     position: relative;

@@ -39,16 +39,17 @@
 
   
   @media screen and (max-width: 960px) {
+    
     .body-container > h1 {
       font-size: 70px;
-      margin-top: -150px;
+      margin-top: -120px;
     }
 
     .body-container {
       width: 80%;
       height: 50vh;
       position: relative;
-      top: 130px;
+      top: 240px;
       left: 10%;
     }
 
