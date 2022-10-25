@@ -43,7 +43,7 @@ button {
 .snake_cards {
     border: 3px solid #252525;
     height: 200px;
-    width: 200px;
+    width: 175px;
     display: flex;
     flex-direction: column;
     position: relative;
