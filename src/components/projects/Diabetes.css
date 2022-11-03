@@ -29,11 +29,11 @@
     .diabetes_cards {
         border: 3px solid #252525;
         height: 350px;
-        width: 350px;
+        width: 450px;
         display: flex;
         flex-direction: column;
         position: relative;
-        left: 15%;
+        left: 7.5%;
         margin-block-end: 10px;
         position: relative;
     }

@@ -61,7 +61,7 @@ p {
 
   @media screen and (max-width: 768px) {
     .aboutme-place {
-      top: 52%;
+      top: 50%;
       width: 90%;
       height: 70%;
   }

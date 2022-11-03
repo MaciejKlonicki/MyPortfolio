@@ -13,7 +13,7 @@ function Chess() {
 function Card () {
   return (
     <div>
-        <div style={{
+        <div className='borderPos' style={{
           backgroundColor: "rgba(0, 0, 0, 0.3)",
           backdropFilter: "blur(5px)",
           fontWeight: "bold",
@@ -35,7 +35,7 @@ function Card () {
           </button>
           </a>
         </div>
-        <div style={{
+        <div className='smallerPos' style={{
           backgroundColor: "rgba(0, 0, 0, 0.3)",
           backdropFilter: "blur(5px)",
           fontWeight: "bold",
