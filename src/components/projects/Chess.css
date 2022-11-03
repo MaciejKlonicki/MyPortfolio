@@ -64,6 +64,15 @@ button:hover {
   }
   
   @media screen and (max-width: 768px) {
+
+    .borderPos {
+      width: 90%;
+    }
+    
+    .smallerPos {
+      width: 70%;
+    }
+
       .chess_cards {
       border: 3px solid #252525;
       height: 180px;
