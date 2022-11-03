@@ -21,7 +21,6 @@ function Card(){
           possibility of further development and also because of the array of opportunities it offers.</p>
         <p>Interests: History, Astronomy, Football, MMA, New technologies, Project management, Swimming, Board games</p>
         <p>Skills: Java, Spring BOOT, React, GIT, Github, SQL/PostgreSQL, Hibernate, Maven, H2, Redux, REST </p>
-        <p>Education: Computer Science Kielce University of Technology - 10/2019-Present</p>
         <p>Projects:</p>
         <ul>
             <li style={{listStyleType: "none"}}><Link className='about-links' to="/applications/chess">Chess game</Link></li>
