@@ -37,6 +37,11 @@ button {
     margin-block-end: 10px;
     position: relative;
 }
+.body-btns-snake {
+  position: relative;
+  right: 480px;
+  top: 120px;
+}
 }
 
 @media screen and (max-width: 768px) {

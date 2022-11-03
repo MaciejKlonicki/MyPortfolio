@@ -52,7 +52,7 @@ p {
       top: 47%;
       left: 50%;
       width: 85%;
-      height: 50%;
+      height: 30%;
       text-align: center;
       backdrop-filter: blur(5px);
       margin-top: 5px;
@@ -61,7 +61,7 @@ p {
 
   @media screen and (max-width: 768px) {
     .aboutme-place {
-      top: 40%;
+      top: 55%;
       width: 90%;
       height: 70%;
   }

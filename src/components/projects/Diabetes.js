@@ -22,11 +22,16 @@ function Card () {
           height: "12%",
           textAlign: "center",
           lineHeight: "35px"
-        }}>
-          <h1>Diabetes Forum</h1>
-          <div className='body-btns'>
+        }}><br></br>
+          <h1>Diabetes Forum</h1><br></br>
+          <div className='body-btns-diabetes'>
             <a href='https://github.com/MaciejKlonicki/Diabetes-Forum'>
-          <button style={{marginBottom: "30px"}}
+          <button style={{
+            position: "relative",
+            top: "725px",
+            left: "485px",
+            cursor: "pointer"
+          }}
             className='btns' 
             buttonStyle='btn--outline'
             buttonSize='btn-large'
@@ -74,7 +79,7 @@ function Card () {
           <p className='p-styling'>• You cannot go to some URL's which are inside of Private Routes,</p>
           <p className='p-styling'>• Tests for backend applied,</p>
           <p className='p-styling'>• Diabetic diary - mobile app (simple mobile app, where we can add and delete some daily messages).</p>
-          </div><br></br>
+          </div><br></br><br></br>
           <h1>Screenshots</h1><br></br>
           <img className='diabetes_cards' 
           src='/images/convert.png' 

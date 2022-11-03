@@ -1,7 +1,6 @@
 import React from 'react'
 import '../../App.css';
 import './Aboutme.css'
-import{ Link } from 'react-router-dom'
 
 function Aboutme() {
   return (

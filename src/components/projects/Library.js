@@ -24,10 +24,15 @@ function Card () {
           lineHeight: "35px",
           color: 'white'
         }}><br></br>
-          <h1>Library</h1>
+          <h1>Library</h1><br></br>
           <div className='body-btns'>
             <a href='https://github.com/MaciejKlonicki/Library'>
-          <button style={{marginBottom: "30px"}}
+          <button style={{
+            position: "relative",
+            top: "-70px",
+            left: "485px",
+            cursor: "pointer"
+          }}
             className='btns' 
             buttonStyle='btn--outline'
             buttonSize='btn-large'
