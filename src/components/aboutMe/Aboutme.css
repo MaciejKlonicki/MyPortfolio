@@ -49,12 +49,12 @@ p {
       font-weight: bold;
       border: 3px solid #f1f1f1;
       position: absolute;
-      top: 70%;
+      top: 68%;
       left: 50%;
       width: 85%;
       height: 100%;
       text-align: center;
       backdrop-filter: blur(5px);
-      bottom: 20px;
+      bottom: 80px;
   }
   }
