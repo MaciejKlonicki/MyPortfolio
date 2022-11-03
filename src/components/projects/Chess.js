@@ -13,17 +13,7 @@ function Chess() {
 function Card () {
   return (
     <div>
-        <div className='borderPos' style={{
-          backgroundColor: "rgba(0, 0, 0, 0.3)",
-          backdropFilter: "blur(5px)",
-          fontWeight: "bold",
-          border: "4px solid #f1f1f1",
-          transform: "translate(33%, 2%)",
-          width: "60%",
-          height: "12%",
-          textAlign: "center",
-          lineHeight: "35px"
-        }}><br></br>
+        <div className='borderPos'><br></br>
           <h1>Chess game</h1>
           <div>
             <a href='https://github.com/MaciejKlonicki/Chess'>
@@ -35,17 +25,7 @@ function Card () {
           </button>
           </a>
         </div>
-        <div className='smallerPos' style={{
-          backgroundColor: "rgba(0, 0, 0, 0.3)",
-          backdropFilter: "blur(5px)",
-          fontWeight: "bold",
-          border: "4px solid #f1f1f1",
-          transform: "translate(20%, 0%)",
-          width: "70%",
-          height: "10%",
-          textAlign: "center",
-          lineHeight: "35px"
-        }}>
+        <div className='smallerPos'>
           <h2 style={{
             fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
             fontSize: "26px",
