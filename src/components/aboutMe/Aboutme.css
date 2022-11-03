@@ -61,14 +61,8 @@ p {
 
   @media screen and (max-width: 768px) {
     .aboutme-place {
-      color: white;
-      font-weight: bold;
-      position: absolute;
-      top: 60%;
-      left: 42%;
+      top: 65%;
       width: 85%;
       height: 100%;
-      text-align: center;
-      margin-top: 5px;
   }
   }
