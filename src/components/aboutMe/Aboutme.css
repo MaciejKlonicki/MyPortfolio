@@ -70,7 +70,8 @@ p {
       height: 100%;
       text-align: center;
       backdrop-filter: blur(5px);
-      margin-left: 5px;
-      margin-right: 5px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 20px;
   }
 }
