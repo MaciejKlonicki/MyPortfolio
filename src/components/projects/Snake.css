@@ -37,18 +37,13 @@ button {
     margin-block-end: 10px;
     position: relative;
 }
-.body-btns-snake {
-  position: relative;
-  right: 480px;
-  top: 120px;
-}
 }
 
 @media screen and (max-width: 768px) {
 .snake_cards {
     border: 3px solid #252525;
     height: 200px;
-    width: 250px;
+    width: 210px;
     display: flex;
     flex-direction: column;
     position: relative;

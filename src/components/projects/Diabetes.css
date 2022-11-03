@@ -29,18 +29,13 @@
     .diabetes_cards {
         border: 3px solid #252525;
         height: 350px;
-        width: 450px;
+        width: 350px;
         display: flex;
         flex-direction: column;
         position: relative;
-        left: 8%;
+        left: 15%;
         margin-block-end: 10px;
         position: relative;
-    }
-    .body-btns-diabetes {
-      position: relative;
-      right: 480px;
-      top: 280px;
     }
     }
     
@@ -48,7 +43,7 @@
         .diabetes_cards {
         border: 3px solid #252525;
         height: 200px;
-        width: 250px;
+        width: 210px;
         display: flex;
         flex-direction: column;
         position: relative;

@@ -29,19 +29,13 @@ button:hover {
   .chess_cards {
       border: 3px solid #252525;
       height: 350px;
-      width: 400px;
+      width: 350px;
       display: flex;
       flex-direction: column;
       position: relative;
-      left: 13%;
+      left: 15%;
       margin-block-end: 10px;
       position: relative;
-  }
-
-  .body-btns {
-    position: relative;
-    right: 480px;
-    top: 50px;
   }
   }
   

@@ -27,12 +27,7 @@ function Card () {
           <h1>Chess game</h1>
           <div className='body-btns'>
             <a href='https://github.com/MaciejKlonicki/Chess'>
-          <button style={{
-            position: "relative",
-            top: "270px",
-            left: "485px",
-            cursor: "pointer"
-          }}
+          <button style={{marginBottom: "30px"}}
             className='btns' 
             buttonStyle='btn--outline'
             buttonSize='btn-large'
@@ -52,6 +47,7 @@ function Card () {
           lineHeight: "35px"
         }}>
           <h2 style={{
+            color: "e6e6e6",
             fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
             fontSize: "26px",
             fontWeight: "bold",
@@ -59,7 +55,7 @@ function Card () {
             color: 'white'
           }}>Chess game created in Java</h2>
           <h3 style={{
-            color: "white",
+            color: "e6e6e6",
             fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
             fontSize: "22px",
             textAlign: "center"
@@ -69,7 +65,7 @@ function Card () {
           <p className='p-styling'>• Possibility of capturing pawns</p>
           <p className='p-styling'>• Removing figurates from the board</p>
           <p className='p-styling'>• Winning possibility</p> 
-          </div><br></br><br></br>
+          </div><br></br>
           <h1>Screenshots</h1>
           <br></br>
           <img className='chess_cards' 
