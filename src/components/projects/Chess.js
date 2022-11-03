@@ -52,7 +52,6 @@ function Card () {
             fontSize: "26px",
             fontWeight: "bold",
             textAlign: "center",
-            color: 'white'
           }}>Chess game created in Java</h2>
           <h3 style={{
             color: "e6e6e6",
