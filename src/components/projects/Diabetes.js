@@ -26,14 +26,14 @@ function Card () {
         </div>
         <div className='smallerPosDiabetes'>
           <h2 style={{
-            color: "e6e6e6",
+            color: "white",
             fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
             fontSize: "26px",
             fontWeight: "bold",
             textAlign: "center"
           }}>Forum for diabetes - all about: treatment, daily life, equipment, curiosities, infolines, etc</h2>
           <h3 style={{
-            color: "e6e6e6",
+            color: "white",
             fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
             fontSize: "22px",
             textAlign: "center"
