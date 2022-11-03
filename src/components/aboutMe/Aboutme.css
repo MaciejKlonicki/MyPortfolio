@@ -55,23 +55,6 @@ p {
       height: 70%;
       text-align: center;
       backdrop-filter: blur(5px);
-  }
-  }
-
-  @media screen and (max-width: 768px) {
-    .aboutme-place {
-      color: rgb(255, 255, 255);
-      font-weight: bold;
-      border: 3px solid #f1f1f1;
-      position: absolute;
-      top: 70%;
-      left: 50%;
-      width: 85%;
-      height: 100%;
-      text-align: center;
-      backdrop-filter: blur(5px);
-      margin-left: 10px;
-      margin-right: 10px;
       margin-bottom: 20px;
   }
-}
+  }
