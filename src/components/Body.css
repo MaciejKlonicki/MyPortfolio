@@ -60,14 +60,16 @@
   @media screen and (max-width: 768px) {
     .body-container > h1 {
       font-size: 50px;
-      margin-top: -100px;
+      margin-top: -60px;
     }
     .body-container > p {
+      margin-top: -40px;
       font-size: 30px;
     }
     .btn-mobile {
       display: block;
       text-decoration: none;
+      margin-top: 10px;
     }
     .btn {
       width: 100%;
