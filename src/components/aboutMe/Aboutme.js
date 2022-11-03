@@ -32,8 +32,8 @@ function Card(){
             <p></p>
             <li style={{listStyleType: "none"}}><Link className='about-links' to="/applications/library">Library</Link></li>
           <p></p>
-            <li style={{listStyleType: "none"}}><Link className='about-links' to="/applications/diabetes">Diabetes</Link></li><br></br><br></br>
-        </ul>
+            <li style={{listStyleType: "none"}}><Link className='about-links' to="/applications/diabetes">Diabetes</Link></li>
+        </ul><br></br><br></br><br></br><br></br>
       </div>
     </div>
   )
