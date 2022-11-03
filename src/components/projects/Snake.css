@@ -50,14 +50,25 @@ button {
 }
 
 @media screen and (max-width: 960px) {
+
+  .borderPosSnake {
+    position: relative;
+    right: 25%;
+    width: 90%;
+  }
+  
+  .smallerPosSnake {
+    width: 70%;
+  }
+
 .snake_cards {
     border: 3px solid #252525;
-    height: 350px;
-    width: 350px;
+    height: 550px;
+    width: 550px;
     display: flex;
     flex-direction: column;
     position: relative;
-    left: 15%;
+    left: 12.5%;
     margin-block-end: 10px;
     position: relative;
 }
