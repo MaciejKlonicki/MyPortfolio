@@ -22,14 +22,6 @@ function Card(){
         <p>Interests: History, Astronomy, Football, MMA, New technologies, Project management, Swimming, Board games</p>
         <p>Skills: Java, Spring BOOT, React, GIT, Github, SQL/PostgreSQL, Hibernate, Maven, H2, Redux, REST </p>
         <p>Education: Computer Science Kielce University of Technology - 10/2019-Present</p>
-        <p>Projects:</p>
-        <ul>
-            <li style={{listStyleType: "none"}}><Link className='about-links' to="/applications/chess">Chess game</Link></li>
-            <li style={{listStyleType: "none"}}><Link className='about-links' to="/applications/snake">Snake game</Link></li>
-            <li style={{listStyleType: "none"}}><Link className='about-links' to="/applications/huffman">Huffman coding</Link></li>
-            <li style={{listStyleType: "none"}}><Link className='about-links' to="/applications/library">Library</Link></li>
-            <li style={{listStyleType: "none"}}><Link className='about-links' to="/applications/diabetes">Diabetes</Link></li>
-        </ul><br></br>
       </div>
     </div>
   )
