@@ -25,15 +25,11 @@ function Card(){
         <p>Projects:</p>
         <ul>
             <li style={{listStyleType: "none"}}><Link className='about-links' to="/applications/chess">Chess game</Link></li>
-            <p></p>
             <li style={{listStyleType: "none"}}><Link className='about-links' to="/applications/snake">Snake game</Link></li>
-            <p></p>
             <li style={{listStyleType: "none"}}><Link className='about-links' to="/applications/huffman">Huffman coding</Link></li>
-            <p></p>
             <li style={{listStyleType: "none"}}><Link className='about-links' to="/applications/library">Library</Link></li>
-          <p></p>
             <li style={{listStyleType: "none"}}><Link className='about-links' to="/applications/diabetes">Diabetes</Link></li>
-        </ul><br></br><br></br><br></br><br></br>
+        </ul><br></br>
       </div>
     </div>
   )
