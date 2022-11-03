@@ -50,14 +50,25 @@
   }
   
   @media screen and (max-width: 960px) {
+
+    .borderPosDiabetes {
+      position: relative;
+      right: 25%;
+      width: 90%;
+    }
+    
+    .smallerPosDiabetes {
+      width: 70%;
+    }
+
     .diabetes_cards {
         border: 3px solid #252525;
-        height: 350px;
-        width: 450px;
+        height: 550px;
+        width: 550px;
         display: flex;
         flex-direction: column;
         position: relative;
-        left: 7.5%;
+        left: 12.5%;
         margin-block-end: 10px;
         position: relative;
     }
@@ -77,12 +88,11 @@
 
         .diabetes_cards {
         border: 3px solid #252525;
-        height: 200px;
-        width: 210px;
+        height: 250px;
+        width: 250px;
         display: flex;
         flex-direction: column;
         position: relative;
-        right: 0%;
         left: 10%;
     }
     }
