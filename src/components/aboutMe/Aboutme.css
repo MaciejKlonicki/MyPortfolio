@@ -53,8 +53,9 @@ p {
       left: 50%;
       width: 85%;
       height: 100%;
-      margin-bottom: 20px;
       text-align: center;
       backdrop-filter: blur(5px);
+      margin-top: 5px;
+      margin-bottom: 15px;
   }
   }
