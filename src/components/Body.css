@@ -1,5 +1,6 @@
   .body-container {
-    height: 100vh;
+    position: fixed;
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -28,8 +29,9 @@
     font-size: 35px;
     font-family: 'Trebuchet MS', 'Times New Roman';
   }
-  
+
   .body-btns {
+    position: absolute;
     margin-top: 25px;
   }
   

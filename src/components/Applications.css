@@ -18,11 +18,11 @@
     .app_image {
       display: flex;
       flex-direction: column;
-      width: 60%;
+      width: 70%;
       height: 40vh;
       position: relative;
       top: 80px;
-      left: 20%;
+      left: 15%;
       opacity: 0.9;
       transition: all 0.5s ease;
       margin-block-end: 10px;

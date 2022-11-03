@@ -8,7 +8,7 @@ import './HeaderComp.css'
 function Body() {
   return (
     <div className='body-container'>
-        <img style={{position: "fixed", width: "100%", height: "100%", zIndex: "-1"}} src="/images/europe.jpg"  alt="background"/>
+        <img style={{position: "relative", width: "100%", height: "100%", zIndex: "-1"}} src="/images/europe.jpg"  alt="background"/>
         <h1 style={{position: "fixed", top: "400px"}}>Welcome to my page</h1>
         <p style={{position: "fixed", top: "400px"}}>Maciej Kłonicki</p>
         <div className='body-btns'>
