@@ -66,6 +66,7 @@ button:hover {
   @media screen and (max-width: 768px) {
 
     .borderPos {
+      left: 15%;
       width: 90%;
     }
     
@@ -80,5 +81,6 @@ button:hover {
       display: flex;
       flex-direction: column;
       position: relative;
+      left: 10%;
     }
   }
