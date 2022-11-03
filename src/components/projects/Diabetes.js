@@ -12,17 +12,7 @@ function Diabetes() {
 function Card () {
   return (
     <div>
-        <div  style={{
-          backgroundColor: "rgba(0, 0, 0, 0.3)",
-          backdropFilter: "blur(5px)",
-          fontWeight: "bold",
-          border: "4px solid #f1f1f1",
-          transform: "translate(33%, 2%)",
-          width: "60%",
-          height: "12%",
-          textAlign: "center",
-          lineHeight: "35px"
-        }}>
+        <div className='borderPosDiabetes'><br></br>
           <h1>Diabetes Forum</h1>
           <div>
             <a href='https://github.com/MaciejKlonicki/Diabetes-Forum'>
@@ -34,18 +24,7 @@ function Card () {
           </button>
           </a>
         </div>
-        <div style={{
-          backgroundColor: "rgba(0, 0, 0, 0.3)",
-          backdropFilter: "blur(5px)",
-          fontWeight: "bold",
-          border: "4px solid #f1f1f1",
-          transform: "translate(20%, 0%)",
-          width: "70%",
-          height: "10%",
-          textAlign: "center",
-          lineHeight: "35px",
-          color: 'white'
-        }}>
+        <div className='smallerPosDiabetes'>
           <h2 style={{
             color: "e6e6e6",
             fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
