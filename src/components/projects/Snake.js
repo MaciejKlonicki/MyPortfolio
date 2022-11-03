@@ -26,7 +26,7 @@ function Card () {
           color: 'white'
         }}><br></br>
           <h1>Snake game</h1>
-          <div className='body-btns'>
+          <div>
             <a href='https://github.com/MaciejKlonicki/Snake'>
           <button style={{marginBottom: "30px"}}
             className='btns' 
@@ -72,7 +72,7 @@ function Card () {
           <p className='p-styling'>• Music</p> 
           <p className='p-styling'>• Graphics for head and body of our snake</p> 
           <p className='p-styling'>• Graphics for apple and banana</p> 
-          </div><br></br>
+          </div><br></br><br></br>
           <h1>Screenshots</h1><br></br>
           <img className='snake_cards' 
           src='/images/s1.png' 

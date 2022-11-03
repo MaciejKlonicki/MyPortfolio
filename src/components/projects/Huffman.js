@@ -25,7 +25,7 @@ function Card () {
           color: 'white'
         }}><br></br>
           <h1>Huffman Compression-Decompression</h1>
-          <div className='body-btns'>
+          <div>
             <a href='https://github.com/MaciejKlonicki/Huffman-Compression-Decompression'>
           <button style={{marginBottom: "30px"}}
             className='btns' 
@@ -60,7 +60,7 @@ function Card () {
             textAlign: "center"
           }}>Link to the presentation:</h3>
           <a href='https://www.youtube.com/watch?v=mY1yj95Fn-I'>Presentation</a>
-          </div><br></br>
+          </div><br></br><br></br>
           <h1>Screenshots</h1><br></br>
           <img className='huff_cards' 
           src='/images/h1.png' 

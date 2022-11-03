@@ -25,7 +25,7 @@ function Card () {
           color: 'white'
         }}><br></br>
           <h1>Library</h1>
-          <div className='body-btns'>
+          <div>
             <a href='https://github.com/MaciejKlonicki/Library'>
           <button style={{marginBottom: "30px"}}
             className='btns' 

@@ -24,7 +24,7 @@ function Card () {
           lineHeight: "35px"
         }}>
           <h1>Diabetes Forum</h1>
-          <div className='body-btns'>
+          <div>
             <a href='https://github.com/MaciejKlonicki/Diabetes-Forum'>
           <button style={{marginBottom: "30px"}}
             className='btns' 
