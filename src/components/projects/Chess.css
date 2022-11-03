@@ -43,7 +43,7 @@ button:hover {
       .chess_cards {
       border: 3px solid #252525;
       height: 180px;
-      width: 250px;
+      width: 210px;
       display: flex;
       flex-direction: column;
       position: relative;
