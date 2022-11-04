@@ -1,6 +1,6 @@
 import './App.css';
-import HeaderComp from './components/HeaderComp';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import HeaderComp from './components/HeaderComp';
 import Body from './components/Body';
 import Applications from './components/Applications';
 import Aboutme from './components/aboutMe/Aboutme';
