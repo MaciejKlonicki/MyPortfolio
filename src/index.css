@@ -39,18 +39,30 @@
 }
 
 .navbar .home-link {
-  color: #ffffff;
+  color: rgb(175, 175, 175);
   font-size: 20px;
 }
+
+.navbar .home-link:hover {
+  transition: all 0.2s;
+  color: #ffffff;
+}
+
 .navbar .links {
   font-size: 20px;
   margin-left: auto;
 }
+
 .navbar a {
-  color: #ffffff;
+  color: rgb(175, 175, 175);
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
+}
+
+.navbar a:hover {
+  transition: all 0.2s;
+  color: #ffffff;
 }
 
 .wrapper {
@@ -60,7 +72,7 @@
 
 .wrapper .icon {
   position: relative;
-  right: 50px;
+  right: 45px;
   top: 30px;
   background: #ffffff;
   border-radius: 50%;
@@ -134,4 +146,51 @@
   align-items: center;
   opacity: 0.8;
   letter-spacing: 1px;
+}
+
+.body-container button {
+  position: relative;
+  top: 80px;
+  right: 200px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: transparent;
+  padding: 2em 3em;
+  border:0.1em solid #FFFFFF;
+  margin:0 0.1em 0.1em 0;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.5s;
+}
+
+.body-container button:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+.body-container .about-me {
+  position: relative;
+  top: 0px;
+  left: 165px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: transparent;
+  padding: 2em 6em;
+  border:0.1em solid #FFFFFF;
+  margin:0 0.1em 0.1em 0;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.5s;
+}
+
+.body-container .about-me:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+.body-container a {
+  text-decoration: none;
+  color: #FFFFFF;
 }

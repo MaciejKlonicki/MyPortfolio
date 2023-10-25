@@ -1,6 +1,18 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 
 function Body() {
+
+  const history = useHistory();
+
+  const handleChangePageToProjects = () => {
+    history.push('/projects')
+  }
+
+  const handleChangePageToAboutMe = () => {
+    history.push('/about-me')
+  }
+
   return (
     <div className='body-container'>
         <h1>Maciej Kłonicki</h1>
@@ -19,6 +31,8 @@ function Body() {
                 </a>
                 </li>
             </ul>
+            <button onClick={handleChangePageToProjects}>Check out my projects</button>
+            <button onClick={handleChangePageToAboutMe} className='about-me'>About me</button>
     </div>
   )
 }
