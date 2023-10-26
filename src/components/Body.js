@@ -20,8 +20,8 @@ function Body() {
             <ul class="wrapper">
                 <li class="icon github">
                 <a href="https://github.com/MaciejKlonicki" target="_blank" rel="noopener noreferrer">
-                    <span class="tooltip">Github</span>
-                    <span><i class="fab fa-github"></i></span>
+                    <span className="tooltip">Github</span>
+                    <span><i className="fab fa-github"></i></span>
                 </a>
                 </li>
                 <li class="icon linkedin">

@@ -155,7 +155,7 @@
   font-size: 15px;
   font-weight: 500;
   background-color: transparent;
-  padding: 2em 3em;
+  padding: 1.5em 2em;
   border:0.1em solid #FFFFFF;
   margin:0 0.1em 0.1em 0;
   color:#FFFFFF;
@@ -171,12 +171,12 @@
 
 .body-container .about-me {
   position: relative;
-  top: 0px;
-  left: 165px;
+  top: 14px;
+  left: 160px;
   font-size: 15px;
   font-weight: 500;
   background-color: transparent;
-  padding: 2em 6em;
+  padding: 1.5em 4.85em;
   border:0.1em solid #FFFFFF;
   margin:0 0.1em 0.1em 0;
   color:#FFFFFF;
@@ -193,4 +193,88 @@
 .body-container a {
   text-decoration: none;
   color: #FFFFFF;
+}
+
+.about-me-page h1 {
+  color: #ffffff;
+  text-align: left;
+  font-weight: 800;
+  letter-spacing: 10px;
+  font-size: 50px;
+  padding: 0 200px;
+  margin: 20px 0px 5px 0px;
+  display: inline-block;
+}
+
+.about-me-page h3 {
+  color: #ffffff;
+  font-size: 25px;
+  padding: 0 250px;
+  margin-top: 15px;
+}
+
+.about-me-page p {
+  color: #ffffff;
+  text-align: left;
+  padding-left: 500px;
+}
+
+.logo-position {
+  display: flex; 
+  justify-content: left;
+  margin-left: 300px;
+}
+
+.logo-position h1 {
+   margin: 0px -300px 80px 0px;  
+}
+
+.fa {
+  margin-left: 600px;
+  font-size: 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.fa-facebook {
+  background: transparent;
+  color: white;
+}
+
+.fa-facebook:hover {
+  color: #3B5998;
+  transition: 0.2s all;
+}
+
+.github {
+  font-size: 30px;
+  background: transparent;
+  color: white;
+}
+
+.github:hover {
+  color: gray;
+  transition: 0.2s all;
+}
+
+.linkedin {
+  font-size: 30px;
+  background: transparent;
+  color: white;
+}
+
+.linkedin:hover {
+  color: #507ddc;
+  transition: 0.2s all;
+}
+
+.instagram {
+  font-size: 30px;
+  background: transparent;
+  color: white;
+}
+
+.instagram:hover {
+  color: rgb(255, 142, 161);
+  transition: 0.2s all;
 }
