@@ -1,13 +1,280 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: 'Trebuchet MS', 'Arial', 'Calibri';
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.body-container h1 {
+  font-size: 50px;
+  color: #ffffff;
+  letter-spacing: 10px;
+  text-align: center;
+  line-height: 2;
+  margin: 0;
+}
+
+.body-container h2 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 90%;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f29e;
+}
+
+.navbar .home-link {
+  color: rgb(175, 175, 175);
+  font-size: 20px;
+}
+
+.navbar .home-link:hover {
+  transition: all 0.2s;
+  color: #ffffff;
+}
+
+.navbar .links {
+  font-size: 20px;
+  margin-left: auto;
+}
+
+.navbar a {
+  color: rgb(175, 175, 175);
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  transition: all 0.2s;
+  color: #ffffff;
+}
+
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+}
+
+.wrapper .icon {
+  position: relative;
+  right: 45px;
+  top: 30px;
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 25px;
+  height: 25px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  font-size: 14px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(56, 56, 56, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .linkedin:hover,
+.wrapper .linkedin:hover .tooltip,
+.wrapper .linkedin:hover .tooltip::before {
+  background: #1DA1F2;
+  color: #ffffff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background: #333333;
+  color: #ffffff;
+}
+
+.wrapper li a {
+  color: black; 
+  text-decoration: none; 
+}
+
+.wrapper li a i {
+  color: black; 
+}
+
+.footer {
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  letter-spacing: 1px;
+}
+
+.body-container button {
+  position: relative;
+  top: 80px;
+  right: 200px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: transparent;
+  padding: 1.5em 2em;
+  border:0.1em solid #FFFFFF;
+  margin:0 0.1em 0.1em 0;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.5s;
+}
+
+.body-container button:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+.body-container .about-me {
+  position: relative;
+  top: 14px;
+  left: 160px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: transparent;
+  padding: 1.5em 4.85em;
+  border:0.1em solid #FFFFFF;
+  margin:0 0.1em 0.1em 0;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.5s;
+}
+
+.body-container .about-me:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+.body-container a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.about-me-page h1 {
+  color: #ffffff;
+  text-align: left;
+  font-weight: 800;
+  letter-spacing: 10px;
+  font-size: 50px;
+  padding: 0 200px;
+  margin: 20px 0px 5px 0px;
+  display: inline-block;
+}
+
+.about-me-page h3 {
+  color: #ffffff;
+  font-size: 25px;
+  padding: 0 250px;
+  margin-top: 15px;
+}
+
+.about-me-page p {
+  color: #ffffff;
+  text-align: left;
+  padding-left: 500px;
+}
+
+.logo-position {
+  display: flex; 
+  justify-content: left;
+  margin-left: 300px;
+}
+
+.logo-position h1 {
+   margin: 0px -300px 80px 0px;  
+}
+
+.fa {
+  margin-left: 600px;
+  font-size: 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.fa-facebook {
+  background: transparent;
+  color: white;
+}
+
+.fa-facebook:hover {
+  color: #3B5998;
+  transition: 0.2s all;
+}
+
+.github {
+  font-size: 30px;
+  background: transparent;
+  color: white;
+}
+
+.github:hover {
+  color: gray;
+  transition: 0.2s all;
+}
+
+.linkedin {
+  font-size: 30px;
+  background: transparent;
+  color: white;
+}
+
+.linkedin:hover {
+  color: #507ddc;
+  transition: 0.2s all;
+}
+
+.instagram {
+  font-size: 30px;
+  background: transparent;
+  color: white;
+}
+
+.instagram:hover {
+  color: rgb(255, 142, 161);
+  transition: 0.2s all;
 }
