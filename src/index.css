@@ -278,3 +278,49 @@
   color: rgb(255, 142, 161);
   transition: 0.2s all;
 }
+
+.not-found h2{
+  color: #ffffff;
+  text-align: center;
+  font-size: 50px;
+  margin: 20px;
+}
+
+.not-found p {
+  color: #ffffff;
+  text-align: center;
+}
+
+.not-found button {
+  font-size: 13px;
+  font-weight: 600;
+  background-color: transparent;
+  padding: 1.5em 4.85em;
+  border:0.1em solid #FFFFFF;
+  margin:0 0.1em 0.1em 0;
+  color:#FFFFFF;
+  transition: all 0.5s;
+}
+
+.not-found button:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+.center-button {
+  text-align: center;
+}
+
+.projects h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+
+.projects p {
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+}
