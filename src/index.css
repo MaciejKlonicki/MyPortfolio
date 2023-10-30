@@ -151,7 +151,7 @@
 .body-container button {
   position: relative;
   top: 80px;
-  right: 135px;
+  right: 100px;
   font-size: 15px;
   font-weight: 500;
   background-color: transparent;
@@ -172,7 +172,7 @@
 .body-container .about-me {
   position: relative;
   top: 14px;
-  left: 105px;
+  left: 70px;
   font-size: 15px;
   font-weight: 500;
   background-color: transparent;
