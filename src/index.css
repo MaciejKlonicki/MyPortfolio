@@ -326,8 +326,8 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .about-me-page h1 {
-    
+  .about-me-page h3 {
+    padding: 0 10px;
   }
 
   .about-me-page p {
@@ -337,6 +337,13 @@
 
   .logo-position {
     flex-direction: column;
-    margin-left: 80px;
+    margin-left: 5px;
+  }
+
+  .fa {
+    margin-left: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    display: inline-block;
   }
 }
