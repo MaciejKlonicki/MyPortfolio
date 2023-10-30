@@ -5,7 +5,7 @@ import { BsGit } from 'react-icons/bs';
 import { BiLogoJavascript, BiLogoFacebook, BiLogoGithub, BiLogoLinkedinSquare, BiLogoInstagram } from 'react-icons/bi';
 
 const AboutMe = () => {
-    return ( 
+    return (
         <div className="about-me-page">
             <h1>WHO AM I</h1>
             <a href="https://www.facebook.com/profile.php?id=100002759184124" target="_blank" 

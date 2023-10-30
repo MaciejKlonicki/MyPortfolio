@@ -357,16 +357,9 @@
     display: inline-block;
   }
 
-  .footer {
-    color: white;
-    bottom: 0;
-    width: 75%;
-    padding: 10px 10px 0px 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    opacity: 0.8;
-    letter-spacing: 1px;
+  .about-me-page {
+    touch-action: none;
+    user-select: none;
+    overflow-x: hidden;
   }
 }
