@@ -151,11 +151,11 @@
 .body-container button {
   position: relative;
   top: 80px;
-  right: 200px;
+  right: 135px;
   font-size: 15px;
   font-weight: 500;
   background-color: transparent;
-  padding: 1.5em 2em;
+  padding: 1.5em 3em;
   border:0.1em solid #FFFFFF;
   margin:0 0.1em 0.1em 0;
   color:#FFFFFF;
@@ -172,11 +172,11 @@
 .body-container .about-me {
   position: relative;
   top: 14px;
-  left: 160px;
+  left: 105px;
   font-size: 15px;
   font-weight: 500;
   background-color: transparent;
-  padding: 1.5em 4.85em;
+  padding: 1.5em 3em;
   border:0.1em solid #FFFFFF;
   margin:0 0.1em 0.1em 0;
   color:#FFFFFF;

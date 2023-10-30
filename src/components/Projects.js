@@ -37,7 +37,7 @@ const Projects = () => {
                 not for expressing programs you’ve already thought of. <br />
                 It should be a pencil, not a pen.
             </p>
-            <Grid container spacing={2} style={{marginBottom: "50px"}}>
+            <Grid container spacing={2} style={{marginBottom: "70px"}}>
                 <Grid item xs={12} sm={3} style={{ display: 'flex' }}>
                     <Card sx={{ maxWidth: 345, display: 'flex', flexDirection: 'column' }}>
                         <CardMedia

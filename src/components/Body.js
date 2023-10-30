@@ -31,7 +31,7 @@ function Body() {
                 </a>
                 </li>
             </ul>
-            <button onClick={handleChangePageToProjects}>Check out my projects</button>
+            <button onClick={handleChangePageToProjects}>Projects</button>
             <button onClick={handleChangePageToAboutMe} className='about-me'>About me</button>
     </div>
   )
