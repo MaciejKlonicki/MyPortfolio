@@ -61,7 +61,7 @@ const Projects = () => {
                     </Card>
                 </Grid>
                 <Grid item xs={12} sm={3} style={{ display: 'flex' }}>
-                    <Card sx={{ maxWidth: 345, display: 'flex', flexDirection: 'column' }}>
+                    <Card sx={{ maxWidth: 345, display: 'flex', flexDirection: 'column', margin: '0 auto' }}>
                         <CardMedia
                             sx={{ height: 140 }}
                             image="/images/chess.png"
@@ -88,7 +88,7 @@ const Projects = () => {
                     </Card>
                 </Grid>
                 <Grid item xs={12} sm={3} style={{ display: 'flex' }}>
-                    <Card sx={{ maxWidth: 345, display: 'flex', flexDirection: 'column' }}>
+                    <Card sx={{ maxWidth: 345, display: 'flex', flexDirection: 'column', margin: '0 auto' }}>
                         <CardMedia
                             sx={{ height: 140 }}
                             image="/images/snake.png"
