@@ -37,9 +37,9 @@ const Projects = () => {
                 not for expressing programs you’ve already thought of. <br />
                 It should be a pencil, not a pen.
             </p>
-            <Grid container spacing={2} style={{marginBottom: "70px"}}>
+            <Grid container spacing={2} style={{marginBottom: "70px", marginLeft: -20, marginRight: 10}}>
                 <Grid item xs={12} sm={3} style={{ display: 'flex' }}>
-                    <Card sx={{ maxWidth: 345, display: 'flex', flexDirection: 'column' }}>
+                    <Card sx={{ maxWidth: 345, display: 'flex', flexDirection: 'column', margin: '0 auto' }}>
                         <CardMedia
                             sx={{ height: 140 }}
                             image="/images/diabetes.png"
@@ -113,7 +113,7 @@ const Projects = () => {
                     </Card>
                 </Grid>
                 <Grid item xs={12} sm={3} style={{ display: 'flex' }}>
-                    <Card sx={{ maxWidth: 345, display: 'flex', flexDirection: 'column' }}>
+                    <Card sx={{ maxWidth: 345, display: 'flex', flexDirection: 'column', margin: '0 auto' }}>
                         <CardMedia
                             sx={{ height: 140 }}
                             image="/images/library.png"
