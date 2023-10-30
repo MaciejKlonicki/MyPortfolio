@@ -326,12 +326,17 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .about-me-page h1 {
+    
+  }
+
   .about-me-page p {
     color: #ffffff;
     padding-left: 5px;
   }
 
   .logo-position {
-    margin-left: -150px;
+    flex-direction: column;
+    margin-left: 80px;
   }
 }
