@@ -325,6 +325,14 @@
   font-size: 15px;
 }
 
+#light {
+  background-color: #f3ebf6;
+}
+
+#dark {
+  background-color: transparent;
+}
+
 @media screen and (max-width: 1000px) {
 
   .body-container h1 {
