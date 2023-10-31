@@ -16,7 +16,7 @@ function Body() {
   return (
     <div className='body-container'>
         <h1>Maciej Kłonicki</h1>
-        <h2>Junior Java Developer</h2>
+        <h2>Junior Java Developer</h2> 
             <ul class="wrapper">
                 <li class="icon github">
                 <a href="https://github.com/MaciejKlonicki" target="_blank" rel="noopener noreferrer">
@@ -26,7 +26,7 @@ function Body() {
                 </li>
                 <li class="icon linkedin">
                 <a href="https://pl.linkedin.com/in/maciej-k%C5%82onicki" target="_blank" rel="noopener noreferrer">
-                    <span class="tooltip">Linkedin</span>
+                    <span class="tooltip">LinkedIn</span>
                     <span><i class="fab fa-linkedin"></i></span>
                 </a>
                 </li>
