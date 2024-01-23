@@ -8,14 +8,14 @@ const AboutMe = () => {
     return (
         <div className="about-me-page">
             <h1>WHO AM I</h1>
-            <a href="https://www.facebook.com/profile.php?id=100002759184124" target="_blank" 
-            rel="noopener noreferrer" className="fa fa-facebook"><BiLogoFacebook /></a>
-            <a href="https://github.com/MaciejKlonicki" target="_blank" 
-            rel="noopener noreferrer" className='github'><BiLogoGithub /></a>
-            <a href="https://pl.linkedin.com/in/maciej-k%C5%82onicki" target="_blank" 
-            rel="noopener noreferrer" className='linkedin'><BiLogoLinkedinSquare /></a>
-            <a href="https://instagram.com/iskaayy?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" 
-            rel="noopener noreferrer" className='instagram'><BiLogoInstagram /></a>
+            <a href="https://www.facebook.com/profile.php?id=100002759184124" target="_blank"
+                rel="noopener noreferrer" className="fa fa-facebook"><BiLogoFacebook /></a>
+            <a href="https://github.com/MaciejKlonicki" target="_blank"
+                rel="noopener noreferrer" className='github'><BiLogoGithub /></a>
+            <a href="https://pl.linkedin.com/in/maciej-k%C5%82onicki" target="_blank"
+                rel="noopener noreferrer" className='linkedin'><BiLogoLinkedinSquare /></a>
+            <a href="https://instagram.com/iskaayy?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"
+                rel="noopener noreferrer" className='instagram'><BiLogoInstagram /></a>
             <p>
                 Hello, my name is Maciek and I am Junior Java Developer. My IT career began in early 2023.<br />
                 I managed to land my first job in February, which was a personal fulfillment of my professional dream to become a programmer. <br />
@@ -43,7 +43,7 @@ const AboutMe = () => {
                 <h1><BiLogoJavascript /></h1>
             </div>
         </div>
-     );
+    );
 }
- 
+
 export default AboutMe;
